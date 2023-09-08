@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AulaCube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #016AE1;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 12px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #024c8c; /* Darker shade of blue for hover */
+        }
+        section {
+            padding: 2em;
+        }
+        .product {
+            width: 45%;
+            float: left;
+            margin: 1%;
+            text-align: center;
+            background-color: #e8f4fd; /* Lighter shade of blue */
+            padding: 1em;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #024c8c; /* Darker shade of blue */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #our-team img {
+            float: left;
+            margin-right: 20px;
+            width: 100px;
+        }
+        .career-platforms a img {
+            max-width: 120px;
+            margin-right: 20px;
+        }
+        footer {
+            background-color: #024c8c; /* Darker shade of blue for footer */
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        @media (max-width: 768px) {
+            .product {
+                width: 100%;
+                margin: 1% 0;
+            }
+            #our-team img {
+                float: none;
+                margin-right: 0;
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AulaCube</h1>
+        <p>Bringing Parents and Schools together through Technology</p>
+        <nav>
+            <a href="#about-us">About Us</a>
+            <a href="#our-products">Products</a>
+            <a href="#our-team">Our Team</a>
+            <a href="#careers">Careers</a>
+        </nav>
+
+    </header>
+
+    <section id="about-us">
+        <h2>What is AulaCube</h2>
+        <p>We are AulaCube, a technology-driven company passionate about revolutionizing education. Our name AulaCube symbolizes the classroom ('Aula') as a cube of innovation, knowledge, and community. Our solutions leverage AI to offer a unique educational experience.</p>
+    </section>
+
+    <section id="our-products">
+        <h2>Our Products</h2>
+
+        <div class="product">
+            <img src="AulaNest_logo.png" alt="AulaNest Logo">
+            <h3>AulaNest: For Pre-schools</h3>
+            <p>AulaNest focuses on enriching the preschool experience by bridging the gap between parents and schools, providing timely updates, progress reports, and fostering better communication.</p>
+            <a href="http://www.aulanest.com" class="cta-button">Go to AulaNest</a>
+        </div>
+
+        <div class="product">
+            <img src="AulaScholar_logo.png" alt="AulaScholar Logo">
+            <h3>AulaScholar: For Schools</h3>
+            <p>AulaScholar aims to transform the educational journey in schools through AI-powered tools that enable schools to become more efficient and parents more informed.</p>
+            <a href="http://www.aulascholar.com" class="cta-button">Go to AulaScholar</a>
+        </div>
+        <div style="clear: both;"></div>
+    </section>
+
+    <section id="our-team">
+        <h2>Our Team: AulaNauts</h2>
+        <div>
+            <h3>Amit Bhatnagar, Founder & CEO </h3>
+            <img id="founder-image" src="amitbhatnagar.jpg" alt="Amit Bhatnagar">
+            <p>With over 15 years of diverse experience in product management, software development, and consulting, Amit Bhatnagar has a proven track record of leveraging innovation and creativity to bring game-changing products to market. In roles at Apple, Microsoft, Nykaa, Dineout, and OYO, he's been instrumental in launching new product-led lines of business that drove growth and created unique value propositions.</p>
+            <p>A Stanford University alumnus with a Master's degree in Management Science and Engineering, Amit continues his lifelong learning journey as he pursues interests such as the Spanish language. His perpetual student mindset fuels his approach to problem-solving and innovation.</p>
+            <p>Education has been the catalyst that propelled him to where he is today. As a testament to the transformative power of education and the symbiosis of his passion for learning and skill in building tech products, he founded AulaCube – a venture aimed at reimagining the educational landscape. At the heart of AulaCube is a desire to create a holistic and inclusive learning environment that leverages the prowess of technology.</p>
+            <p>His ambition is to harness the power of technology and the insights gleaned from his diverse background to create an ecosystem that fosters holistic and inclusive learning. Education is not just a pursuit, but a mission that has shaped his life. Now, he is committed to reshaping it for others, shaping the future one innovation at a time.</p>
+        </div>
+        <div style="clear: both;"></div>
+        <div>
+            <h3>Our Team</h3>
+            <p>Details about the team here.</p>
+        </div>
+    </section>
+
+    <section id="careers">
+        <h2>Join Us</h2>
+        <p>We're an early stage company, but our ambitions are grand. At AulaCube, we believe in the power of collaboration, innovation, and disruptive thinking. We're always on the lookout for talented professionals who resonate with our vision and can bring fresh perspectives to our team.</p>
+        <p>Whether you're an industry veteran with years of experience or a passionate newbie looking to make a mark, if you have the zeal to make a difference in the world of education, we're interested in you.</p>
+        <p>Explore career opportunities with us:</p>
+        <div class="career-platforms">
+            <a href="https://www.linkedin.com/company/aulacube/jobs/">
+                <img src="Linkedin.png" alt="LinkedIn Job Page">
+            </a>
+            <a href="https://www.instahyre.com/employer/profile/">
+                <img src="instahyre.png" alt="Instahyre">
+            </a>
+            <a href="https://internshala.com/company/aulacube-technologies-private-limited-career-1691597049">
+                <img src="internshala.png" alt="Internshala">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 AulaCube Technologies Private Limited</p>
+    </footer>
+</body>
+</html>
+
